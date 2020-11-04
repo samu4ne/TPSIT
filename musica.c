@@ -51,8 +51,10 @@ void caricaTab(Canzone vett[], int a, FILE *fp){
 
 
 void stampaTab(Canzone vett[], int a){
+    int r;
     for(int k=0; k<a; k++){
-        printf("%c, %s, %s\n", vett[k].num, vett[k].titolo, vett[k].artista);
+        r=rand()%10+0;
+        printf("%c, %s, %s\n", vett[r].num, vett[r].titolo, vett[r].artista);
     }
 }
 
