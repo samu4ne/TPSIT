@@ -189,16 +189,4 @@ void main(){
 */
 
 
-typedef struct canzone{
-    int num;
-    char *titolo;
-    char *artista;
-    struct canzone *next;   
-}Canzone;
 
-void main(){
-    Canzone *playlist;
-    playlist= (Canzone*) malloc (sizeof(Canzone));
-    playlist->ind= ....
-
-}
