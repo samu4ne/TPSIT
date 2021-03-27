@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 
-/*
+
 typedef struct canzone{
     int num;
     char *titolo;
@@ -82,7 +82,7 @@ void main(){
     }
     
 }
-*/
+
 
 /*
 eserizio conn la malloc
